@@ -1,0 +1,15 @@
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\bin\Debug\net5.0\Desafio.Glass.Application.deps.json
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\bin\Debug\net5.0\Desafio.Glass.Application.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\bin\Debug\net5.0\ref\Desafio.Glass.Application.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\bin\Debug\net5.0\Desafio.Glass.Application.pdb
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\bin\Debug\net5.0\Desafio.Glass.Domain.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\bin\Debug\net5.0\Desafio.Glass.Domain.pdb
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\Desafio.Glass.Application.csproj.AssemblyReference.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\Desafio.Glass.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\Desafio.Glass.Application.AssemblyInfoInputs.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\Desafio.Glass.Application.AssemblyInfo.cs
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\Desafio.Glass.Application.csproj.CoreCompileInputs.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\Desafio.Glass.Application.csproj.CopyComplete
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\Desafio.Glass.Application.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\ref\Desafio.Glass.Application.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Application\obj\Debug\net5.0\Desafio.Glass.Application.pdb

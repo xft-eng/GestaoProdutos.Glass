@@ -1,0 +1,11 @@
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\bin\Debug\net5.0\Desafio.Glass.Domain.deps.json
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\bin\Debug\net5.0\Desafio.Glass.Domain.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\bin\Debug\net5.0\ref\Desafio.Glass.Domain.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\bin\Debug\net5.0\Desafio.Glass.Domain.pdb
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\obj\Debug\net5.0\Desafio.Glass.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\obj\Debug\net5.0\Desafio.Glass.Domain.AssemblyInfoInputs.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\obj\Debug\net5.0\Desafio.Glass.Domain.AssemblyInfo.cs
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\obj\Debug\net5.0\Desafio.Glass.Domain.csproj.CoreCompileInputs.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\obj\Debug\net5.0\Desafio.Glass.Domain.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\obj\Debug\net5.0\ref\Desafio.Glass.Domain.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Domain\obj\Debug\net5.0\Desafio.Glass.Domain.pdb

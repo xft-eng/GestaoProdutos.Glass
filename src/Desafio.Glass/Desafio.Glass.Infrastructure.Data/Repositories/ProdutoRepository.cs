@@ -25,23 +25,23 @@ namespace Desafio.Glass.Infrastructure.Data.Repositories
                  .FirstOrDefaultAsync();
         }
 
-        public async Task<Produto> IncluirAsync(Produto vmPoste)
+        public async Task<Produto> IncluirAsync(Produto vmProduto)
         {
 
-            _context.Produto.Add(vmPoste);
+            _context.Produto.Add(vmProduto);
             await _context.SaveChangesAsync();
-            return vmPoste;
+            return vmProduto;
         }
 
-        public async Task<Produto> EditarAsync(Produto vmPoste)
+        public async Task<Produto> EditarAsync(Produto vmProduto)
         {
 
-            _context.Entry(vmPoste).State = EntityState.Modified;
+            _context.Entry(vmProduto).State = EntityState.Modified;
 
             try
             {
                 await _context.SaveChangesAsync();
-                return vmPoste;
+                return vmProduto;
             }
             catch (DbUpdateConcurrencyException)
             {

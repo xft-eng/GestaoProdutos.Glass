@@ -1,0 +1,15 @@
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\bin\Debug\net5.0\Desafio.Glass.Infrastructure.Data.deps.json
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\bin\Debug\net5.0\Desafio.Glass.Infrastructure.Data.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\bin\Debug\net5.0\ref\Desafio.Glass.Infrastructure.Data.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\bin\Debug\net5.0\Desafio.Glass.Infrastructure.Data.pdb
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\bin\Debug\net5.0\Desafio.Glass.Domain.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\bin\Debug\net5.0\Desafio.Glass.Domain.pdb
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\Desafio.Glass.Infrastructure.Data.csproj.AssemblyReference.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\Desafio.Glass.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\Desafio.Glass.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\Desafio.Glass.Infrastructure.Data.AssemblyInfo.cs
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\Desafio.Glass.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\Desafio.Glass.Infrastructure.Data.csproj.CopyComplete
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\Desafio.Glass.Infrastructure.Data.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\ref\Desafio.Glass.Infrastructure.Data.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.Infrastructure.Data\obj\Debug\net5.0\Desafio.Glass.Infrastructure.Data.pdb

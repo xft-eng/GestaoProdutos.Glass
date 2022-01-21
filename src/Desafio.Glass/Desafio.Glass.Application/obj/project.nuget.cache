@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YbEYjPjWEWc04jIj5V7QpY6jtuMra/p+8KAn9v7RVLs2iClMur8UAqFK1pdjKj6RpHM7OfO7YA0vJfjX32pqjA==",
+  "success": true,
+  "projectFilePath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cogtit619\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
