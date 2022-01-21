@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Glass.API", "Desafio.Glass.API\Desafio.Glass.API.csproj", "{CB5D79F2-4094-46E7-8AEE-84A33C50D211}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F478D30-AE2A-44C4-8522-34CFEB66E087} = {4F478D30-AE2A-44C4-8522-34CFEB66E087}
+		{43EDB072-40AA-42D9-98A9-354FA1DEE38B} = {43EDB072-40AA-42D9-98A9-354FA1DEE38B}
+		{9AE193E9-CE54-42D1-A902-A86ABCF4F561} = {9AE193E9-CE54-42D1-A902-A86ABCF4F561}
+		{91E266EB-36A6-445A-8B37-7C0620E91B61} = {91E266EB-36A6-445A-8B37-7C0620E91B61}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Glass.Application", "Desafio.Glass.Application\Desafio.Glass.Application.csproj", "{91E266EB-36A6-445A-8B37-7C0620E91B61}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AE193E9-CE54-42D1-A902-A86ABCF4F561} = {9AE193E9-CE54-42D1-A902-A86ABCF4F561}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Glass.Domain", "Desafio.Glass.Domain\Desafio.Glass.Domain.csproj", "{9AE193E9-CE54-42D1-A902-A86ABCF4F561}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Glass.Infrastructure.Data", "Desafio.Glass.Infrastructure.Data\Desafio.Glass.Infrastructure.Data.csproj", "{43EDB072-40AA-42D9-98A9-354FA1DEE38B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AE193E9-CE54-42D1-A902-A86ABCF4F561} = {9AE193E9-CE54-42D1-A902-A86ABCF4F561}
+		{91E266EB-36A6-445A-8B37-7C0620E91B61} = {91E266EB-36A6-445A-8B37-7C0620E91B61}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Glass.Infrastructure.IoC", "Desafio.Glass.Infrastructure.IoC\Desafio.Glass.Infrastructure.IoC.csproj", "{4F478D30-AE2A-44C4-8522-34CFEB66E087}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Glass.Tests", "Desafio.Glass.Tests\Desafio.Glass.Tests.csproj", "{4645AA49-44A0-4E11-BD47-225646BD8597}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AE193E9-CE54-42D1-A902-A86ABCF4F561} = {9AE193E9-CE54-42D1-A902-A86ABCF4F561}
+		{CB5D79F2-4094-46E7-8AEE-84A33C50D211} = {CB5D79F2-4094-46E7-8AEE-84A33C50D211}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB5D79F2-4094-46E7-8AEE-84A33C50D211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5D79F2-4094-46E7-8AEE-84A33C50D211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5D79F2-4094-46E7-8AEE-84A33C50D211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5D79F2-4094-46E7-8AEE-84A33C50D211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E266EB-36A6-445A-8B37-7C0620E91B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E266EB-36A6-445A-8B37-7C0620E91B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E266EB-36A6-445A-8B37-7C0620E91B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E266EB-36A6-445A-8B37-7C0620E91B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE193E9-CE54-42D1-A902-A86ABCF4F561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE193E9-CE54-42D1-A902-A86ABCF4F561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE193E9-CE54-42D1-A902-A86ABCF4F561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE193E9-CE54-42D1-A902-A86ABCF4F561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EDB072-40AA-42D9-98A9-354FA1DEE38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EDB072-40AA-42D9-98A9-354FA1DEE38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EDB072-40AA-42D9-98A9-354FA1DEE38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EDB072-40AA-42D9-98A9-354FA1DEE38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F478D30-AE2A-44C4-8522-34CFEB66E087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F478D30-AE2A-44C4-8522-34CFEB66E087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F478D30-AE2A-44C4-8522-34CFEB66E087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F478D30-AE2A-44C4-8522-34CFEB66E087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4645AA49-44A0-4E11-BD47-225646BD8597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4645AA49-44A0-4E11-BD47-225646BD8597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4645AA49-44A0-4E11-BD47-225646BD8597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4645AA49-44A0-4E11-BD47-225646BD8597}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBF630DD-07D1-4B48-AEFE-9831EDAE33E7}
+	EndGlobalSection
+EndGlobal

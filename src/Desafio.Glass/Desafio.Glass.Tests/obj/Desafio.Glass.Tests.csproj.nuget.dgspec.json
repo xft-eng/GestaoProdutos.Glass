@@ -1,0 +1,466 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Tests\\Desafio.Glass.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.API\\Desafio.Glass.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.API\\Desafio.Glass.API.csproj",
+        "projectName": "Desafio.Glass.API",
+        "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.API\\Desafio.Glass.API.csproj",
+        "packagesPath": "C:\\Users\\cogtit619\\.nuget\\packages\\",
+        "outputPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cogtit619\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj": {
+                "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj"
+              },
+              "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.IoC\\Desafio.Glass.Infrastructure.IoC.csproj": {
+                "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.IoC\\Desafio.Glass.Infrastructure.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Extensions.FluentValidation.Br": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj",
+        "projectName": "Desafio.Glass.Application",
+        "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj",
+        "packagesPath": "C:\\Users\\cogtit619\\.nuget\\packages\\",
+        "outputPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cogtit619\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Domain\\Desafio.Glass.Domain.csproj": {
+                "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Domain\\Desafio.Glass.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Domain\\Desafio.Glass.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Domain\\Desafio.Glass.Domain.csproj",
+        "projectName": "Desafio.Glass.Domain",
+        "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Domain\\Desafio.Glass.Domain.csproj",
+        "packagesPath": "C:\\Users\\cogtit619\\.nuget\\packages\\",
+        "outputPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cogtit619\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.Data\\Desafio.Glass.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.Data\\Desafio.Glass.Infrastructure.Data.csproj",
+        "projectName": "Desafio.Glass.Infrastructure.Data",
+        "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.Data\\Desafio.Glass.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\cogtit619\\.nuget\\packages\\",
+        "outputPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cogtit619\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Domain\\Desafio.Glass.Domain.csproj": {
+                "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Domain\\Desafio.Glass.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.IoC\\Desafio.Glass.Infrastructure.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.IoC\\Desafio.Glass.Infrastructure.IoC.csproj",
+        "projectName": "Desafio.Glass.Infrastructure.IoC",
+        "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.IoC\\Desafio.Glass.Infrastructure.IoC.csproj",
+        "packagesPath": "C:\\Users\\cogtit619\\.nuget\\packages\\",
+        "outputPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cogtit619\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj": {
+                "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj"
+              },
+              "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.Data\\Desafio.Glass.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.Data\\Desafio.Glass.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Tests\\Desafio.Glass.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Tests\\Desafio.Glass.Tests.csproj",
+        "projectName": "Desafio.Glass.Tests",
+        "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Tests\\Desafio.Glass.Tests.csproj",
+        "packagesPath": "C:\\Users\\cogtit619\\.nuget\\packages\\",
+        "outputPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cogtit619\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.API\\Desafio.Glass.API.csproj": {
+                "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.API\\Desafio.Glass.API.csproj"
+              },
+              "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj": {
+                "projectPath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Application\\Desafio.Glass.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

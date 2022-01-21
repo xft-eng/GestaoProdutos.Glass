@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Desafio.Glass.API</name>
+    </assembly>
+    <members>
+        <member name="T:Desafio.Glass.API.Controllers.ProdutoController">
+            <Summary>
+             ProdutoController
+            </Summary>
+        </member>
+        <member name="M:Desafio.Glass.API.Controllers.ProdutoController.#ctor(Desafio.Glass.Application.Interfaces.IProdutoAppService)">
+            <Summary>
+             Construtor
+            </Summary>
+        </member>
+        <member name="M:Desafio.Glass.API.Controllers.ProdutoController.ListarPorIdAsync(System.Int32)">
+            <summary>
+            Listar Produto pelo código
+            </summary>
+            <param name="id">Identificador do código do registro.</param>
+            <response code="200">Retorna um registro pelo código cadastrado na base.</response>  
+            <response code="204">Nenhum produto encontrado na base.</response>  
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Desafio.Glass.API.Controllers.ProdutoController.ListarAsync(Desafio.Glass.Application.Model.Input.ConsultaProdutoModel,System.Int32,System.Int32)">
+            <summary>
+            Listar registros
+            </summary>
+            <param name="vmProduto">Parâmetros que pode ser retornado na busca</param>
+            <param name="pageSize">Opcionalmente usado para retornar uma quantidade específica de resultados</param>
+            <param name="skip">Opcionalmente usado para retornar um salto para ignorar uma quantidade específica de itens do resultado.</param>
+            <response code="200">Retorna uma coleção de registros filtrados pelos campos.</response>  
+            <response code="204">Nenhum produto encontrado na base.</response>  
+            <response code="400">Requisição é inválida</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="T:Desafio.Glass.API.Settings.SwaggerApi">
+            <summary>
+            Adiciona e configura os serviços da aplicação relacionados ao Swagger
+            </summary>
+        </member>
+        <member name="M:Desafio.Glass.API.Settings.SwaggerApi.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adiciona o serviço do Swagger
+            </summary>
+            <param name="services">Coleção de serviços</param>
+        </member>
+        <member name="M:Desafio.Glass.API.Settings.SwaggerApi.ConfigureSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configura o serviço do Swagger
+            </summary>
+            <param name="app">Aplicação</param>
+        </member>
+    </members>
+</doc>
