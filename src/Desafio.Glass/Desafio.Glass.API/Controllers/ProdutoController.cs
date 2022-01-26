@@ -73,6 +73,8 @@ namespace Desafio.Glass.API.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> ListarAsync([FromQuery] ConsultaProdutoModel vmProduto, int pageSize, int skip)
         {
+            if (!ModelState.IsValid)
+                return BadRequest();
 
             var produtos = await _produtoAppService.ListarProdutosComposeAsync(vmProduto, pageSize, skip);
 
@@ -100,9 +102,9 @@ namespace Desafio.Glass.API.Controllers
             if (!ModelState.IsValid)
                 return BadRequest();
 
-            await _produtoAppService.IncluirAsync(vmProduto);
+            var produto = await _produtoAppService.IncluirAsync(vmProduto);
 
-            return StatusCode((int)HttpStatusCode.Created, vmProduto);
+            return StatusCode((int)HttpStatusCode.Created, produto);
 
         }
 
@@ -124,9 +126,10 @@ namespace Desafio.Glass.API.Controllers
             if (!ModelState.IsValid)
                 return BadRequest();
             vmProduto.SituacaoProduto = true;
-            await _produtoAppService.EditarAsync(vmProduto);
 
-            return StatusCode((int)HttpStatusCode.Created, vmProduto);
+            var produto = await _produtoAppService.EditarAsync(vmProduto);
+
+            return StatusCode((int)HttpStatusCode.Created, produto);
         }
 
 

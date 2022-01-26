@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uGk/MvOlddDCkq9aDUsV+lxsTWbRSjxiqsAouK50TMgymwrne7yAyx1tOM37vdsmkazCJtOHEYRzs/qbwTmInw==",
+  "dgSpecHash": "KDCrOpTnleH4874fw+AQ3aGZyyDY2FhnwIc/psM0G0UT/4SA2fynR3UEppxkbhJzLq2XbZR2jol1JlhHAxcWgg==",
   "success": true,
   "projectFilePath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.Data\\Desafio.Glass.Infrastructure.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cogtit619\\.nuget\\packages\\aspnetcore.iqueryable.extensions\\5.0.2\\aspnetcore.iqueryable.extensions.5.0.2.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.13\\microsoft.entityframeworkcore.5.0.13.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.13\\microsoft.entityframeworkcore.abstractions.5.0.13.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.13\\microsoft.entityframeworkcore.analyzers.5.0.13.nupkg.sha512",
@@ -23,9 +25,13 @@
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"

@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "AspNetCore.IQueryable.Extensions/5.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/net5.0/AspNetCore.IQueryable.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/AspNetCore.IQueryable.Extensions.dll": {}
+        }
+      },
       "AutoMapper/11.0.0": {
         "type": "package",
         "dependencies": {
@@ -35,6 +47,9 @@
       "Desafio.Glass.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AspNetCore.IQueryable.Extensions": "5.0.2"
+        },
         "compile": {
           "bin/placeholder/Desafio.Glass.Domain.dll": {}
         },
@@ -45,6 +60,20 @@
     }
   },
   "libraries": {
+    "AspNetCore.IQueryable.Extensions/5.0.2": {
+      "sha512": "ZbNo6tHmYCrvndqwzo+UMxLdlhMtPi6yq5w1IYxQT58QNDQJ8u2wTpMvfPpE90Sm7SVy2FwV5eJo47rKSUb/aw==",
+      "type": "package",
+      "path": "aspnetcore.iqueryable.extensions/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcore.iqueryable.extensions.5.0.2.nupkg.sha512",
+        "aspnetcore.iqueryable.extensions.nuspec",
+        "lib/net5.0/AspNetCore.IQueryable.Extensions.dll",
+        "lib/netstandard2.0/AspNetCore.IQueryable.Extensions.dll",
+        "lib/netstandard2.1/AspNetCore.IQueryable.Extensions.dll"
+      ]
+    },
     "AutoMapper/11.0.0": {
       "sha512": "+596AnKykYCk9RxXCEF4GYuapSebQtFVvIA1oVG1rrRkCLAC7AkWehJ0brCfYUbdDW3v1H/p0W3hob7JoXGjMw==",
       "type": "package",

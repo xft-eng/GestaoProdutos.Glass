@@ -1,4 +1,6 @@
-﻿using Desafio.Glass.Domain.DTO.DesafioGlass;
+﻿using AspNetCore.IQueryable.Extensions.Filter;
+using Desafio.Glass.Domain.DTO.DesafioGlass;
+using Desafio.Glass.Domain.DTO.DesafioGlass.CustomConsult;
 using Desafio.Glass.Domain.Interfaces.Repository;
 using Desafio.Glass.Infrastructure.Data.DbContexts;
 using Microsoft.EntityFrameworkCore;
@@ -52,57 +54,19 @@ namespace Desafio.Glass.Infrastructure.Data.Repositories
 
         public async Task<IEnumerable<Produto>> ObterProdutosCompeseAsync(Produto vmProduto, int pageSize, int skip)
         {
-            IQueryable<Produto> query = _context.Produto;
+            var descricaoProduto = vmProduto.DescricaoProduto;
+            var situacaoProduto = vmProduto.SituacaoProduto;
+            var dataFabricacao = vmProduto.DataFabricacao;
+            var dataValidade = vmProduto.DataValidade;
+            var codFornecedor = vmProduto.CodFornecedor;
+            var descricaoFornecedor = vmProduto.DescricaoFornecedor;
+            var cnpj = vmProduto.CNPJ;
 
-            if (!string.IsNullOrEmpty(vmProduto.DescricaoProduto))
-            {
-                query = query.Where(where => where.DescricaoProduto.Contains(vmProduto.DescricaoProduto))
-                             .Take(pageSize)
-                             .Skip(skip);
-            }
+            var filter = new CustomConsultProduto(descricaoProduto, situacaoProduto, dataFabricacao, dataValidade, codFornecedor, descricaoFornecedor, cnpj);
 
-            if (vmProduto.SituacaoProduto != null)
-            {
-                query = query.Where(where => where.SituacaoProduto == vmProduto.SituacaoProduto)
-                             .Take(pageSize)
-                             .Skip(skip); ;
-            }
+            var query = await _context.Produto.AsQueryable().Filter(filter).Take(pageSize).Skip(skip).ToListAsync();
 
-            if (vmProduto.DataFabricacao != null)
-            {
-                query = query.Where(where => where.DataFabricacao == vmProduto.DataFabricacao)
-                             .Take(pageSize)
-                             .Skip(skip); ;
-            }
-
-            if (vmProduto.DataValidade != null)
-            {
-                query = query.Where(where => where.DataValidade == vmProduto.DataValidade)
-                             .Take(pageSize)
-                             .Skip(skip); ;
-            }
-
-            if (!string.IsNullOrEmpty(vmProduto.CodFornecedor))
-            {
-                query = query.Where(where => where.CodFornecedor == vmProduto.CodFornecedor)
-                             .Take(pageSize)
-                             .Skip(skip); ;
-            }
-
-            if (!string.IsNullOrEmpty(vmProduto.DescricaoFornecedor))
-            {
-                query = query.Where(where => where.DescricaoFornecedor.Contains(vmProduto.DescricaoFornecedor))
-                             .Take(pageSize)
-                             .Skip(skip); ;
-            }
-            if (!string.IsNullOrEmpty(vmProduto.CNPJ))
-            {
-                query = query.Where(where => where.CNPJ == vmProduto.CNPJ)
-                             .Take(pageSize)
-                             .Skip(skip); ;
-            }
-
-            return await query.ToListAsync();
+            return  query;
         }
 
     }

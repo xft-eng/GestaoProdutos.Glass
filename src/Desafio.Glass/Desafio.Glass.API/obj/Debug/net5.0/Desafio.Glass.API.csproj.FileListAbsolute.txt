@@ -86,3 +86,6 @@ C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.API\obj\Debug\net5.
 C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.API\obj\Debug\net5.0\Desafio.Glass.API.xml
 C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.API\obj\Debug\net5.0\Desafio.Glass.API.pdb
 C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.API\obj\Debug\net5.0\Desafio.Glass.API.genruntimeconfig.cache
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.API\bin\Debug\net5.0\AspNetCore.IQueryable.Extensions.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.API\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\.net\Testes\Desafio.Glass\src\Desafio.Glass\Desafio.Glass.API\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll

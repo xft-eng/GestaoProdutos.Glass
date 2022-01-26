@@ -20,6 +20,7 @@
   - **FluentValidation & Data Annotation** - Responsável pela validação do modelo de dados no back-end;
   - **AutoMapper** - Mapeamento entre objetos de diferentes camadas da aplicação.
   - **Entity Framework Core** - ORM responsável pela persistencia de dados em base.
+  - **AspNetCore.IQueryable.Extensions** - Utilizado para consulta por N parametros com o EF Core.
 
 
 

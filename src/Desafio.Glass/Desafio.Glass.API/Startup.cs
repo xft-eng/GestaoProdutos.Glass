@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace Desafio.Glass.API
 {
@@ -32,6 +33,7 @@ namespace Desafio.Glass.API
                .AddFluentValidation(fv =>
                {
                    fv.RegisterValidatorsFromAssemblyContaining<ProdutoModelValidator>();
+                   fv.RegisterValidatorsFromAssemblyContaining<ConsultaCustomModelValidator>();
                });
 
             services.AddResponseCaching();
@@ -41,6 +43,13 @@ namespace Desafio.Glass.API
             services.AddCors();
 
             services.AddMemoryCache();
+
+            services.AddLogging(loggingBuilder =>
+            {
+                loggingBuilder.AddConfiguration(Configuration.GetSection("Logging"));
+                loggingBuilder.AddConsole();
+                loggingBuilder.AddDebug();
+            });
 
             var ConnectionStrings = Configuration.GetConnectionString("GestaoProduto");
             services.AddDbContext<GestaoProdutoDbContext>(options => options

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "020EDIGG0QZSI7mbw7/4PQifMxnVI1z7dFJ+7dFvdikQyEGvDbqv4yyvn/qwbEsPqkacjNgp5MGi4zxe9ax5XQ==",
+  "dgSpecHash": "rHEcV0EC5FV7Xw55H1VMxEMv8vTmDoUajg+tEq1LC8c7iP5+sHEbI0FN9zk6c+4nWOo0XCsIr0BGXyQMfGDktw==",
   "success": true,
   "projectFilePath": "C:\\.net\\Testes\\Desafio.Glass\\src\\Desafio.Glass\\Desafio.Glass.Infrastructure.IoC\\Desafio.Glass.Infrastructure.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cogtit619\\.nuget\\packages\\aspnetcore.iqueryable.extensions\\5.0.2\\aspnetcore.iqueryable.extensions.5.0.2.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -26,9 +27,13 @@
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\cogtit619\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\cogtit619\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
